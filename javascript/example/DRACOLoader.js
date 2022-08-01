@@ -4,7 +4,7 @@
 
 THREE.DRACOLoader = function ( manager ) {
 
-	THREE.Loader.call( this, manager );
+	this.loader = new THREE.Loader( manager );
 
 	this.decoderPath = '';
 	this.decoderConfig = {};
